@@ -4,7 +4,7 @@ const int MPU = 0x68; //Device address
 int gyro_pitch_data_raw, accelerometer_data_raw;
 float angle_gyro, angle_acc;
 long gyro_pitch_calibration_value;
-int acc_calibration_value = 720;
+int acc_calibration_value = 300;
 
 void setup() {
   Serial.begin(9600);
